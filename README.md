@@ -7,6 +7,8 @@ Mapping the world ♥ together
 
 State of the Map Asia is an event for all mappers and OpenStreetMap users. Enjoy two days in the Philippines with talks, discussions, and workshops all around the free and open map of the world..
 
+---
+
 ###   [SotM Asia 2017 Kathmandu](http://2017.stateofthemap.asia/)
 ![sotmasia2017](https://user-images.githubusercontent.com/416977/32729741-217b6cf4-c8c8-11e7-96f5-73a4cfcaaad8.jpg)
 
@@ -21,7 +23,7 @@ September 23 to 24, 2017
 # Where
 Park Village Resort
 ```
-
+---
 ###   [SotM Asia 2016 Manila](http://2017.stateofthemap.asia/)
 ![sotmasia2016](https://user-images.githubusercontent.com/416977/32730105-5b7dc112-c8c9-11e7-9a15-8b6035c4c67b.jpg)
 
@@ -37,6 +39,7 @@ October 1st to 2nd, 2016
 University of the Philippines Diliman, Quezon City
 ```
 
+---
 ###   SotM Asia 2015 Jakarta
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
