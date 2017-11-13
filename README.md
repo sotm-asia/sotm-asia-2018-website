@@ -1,14 +1,16 @@
 ## Welcome to State of the Map ASIA
 
+![sotmasia_groupphoto](https://user-images.githubusercontent.com/416977/32729963-e6ead1c8-c8c8-11e7-8446-4b073e50b3b5.jpg)
+
+
 Mapping the world ♥ together
 
 State of the Map Asia is an event for all mappers and OpenStreetMap users. Enjoy two days in the Philippines with talks, discussions, and workshops all around the free and open map of the world..
 
 ###   SotM Asia 2017 Kathmandu
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ``` markdown
+![sotmasia2017](https://user-images.githubusercontent.com/416977/32729741-217b6cf4-c8c8-11e7-96f5-73a4cfcaaad8.jpg)
 
 # Official Website
 http://2017.stateofthemap.asia/
