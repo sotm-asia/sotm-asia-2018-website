@@ -8,9 +8,9 @@ Mapping the world ♥ together
 State of the Map Asia is an event for all mappers and OpenStreetMap users. Enjoy two days in the Philippines with talks, discussions, and workshops all around the free and open map of the world..
 
 ###   SotM Asia 2017 Kathmandu
+![sotmasia2017](https://user-images.githubusercontent.com/416977/32729741-217b6cf4-c8c8-11e7-96f5-73a4cfcaaad8.jpg)
 
 ``` markdown
-![sotmasia2017](https://user-images.githubusercontent.com/416977/32729741-217b6cf4-c8c8-11e7-96f5-73a4cfcaaad8.jpg)
 
 # Official Website
 http://2017.stateofthemap.asia/
