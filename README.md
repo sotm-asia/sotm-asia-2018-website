@@ -23,8 +23,7 @@ Park Village Resort
 ```
 
 ###   SotM Asia 2016 Manila
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![sotmasia2016](https://user-images.githubusercontent.com/416977/32730105-5b7dc112-c8c9-11e7-9a15-8b6035c4c67b.jpg)
 
 ``` markdown
 
