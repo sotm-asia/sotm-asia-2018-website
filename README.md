@@ -1,36 +1,60 @@
-## Welcome to GitHub Pages
+## Welcome to State of the Map ASIA
 
-You can use the [editor on GitHub](https://github.com/sotm-asia/sotm-asia-2018-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Mapping the world ♥ together
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+State of the Map Asia is an event for all mappers and OpenStreetMap users. Enjoy two days in the Philippines with talks, discussions, and workshops all around the free and open map of the world..
 
-### Markdown
+###   SotM Asia 2017 Kathmandu
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+``` markdown
 
-# Header 1
-## Header 2
-### Header 3
+# Official Website
+http://2017.stateofthemap.asia/
 
-- Bulleted
-- List
+# When
+September 23 to 24, 2017
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Where
+Park Village Resort
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+###   SotM Asia 2016 Manila
 
-### Jekyll Themes
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sotm-asia/sotm-asia-2018-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+``` markdown
+
+# Official Website
+http://2016.stateofthemap.asia/
+
+# When
+October 1st to 2nd, 2016
+
+# Where
+University of the Philippines Diliman, Quezon City
+```
+
+###   SotM Asia 2015 Jakarta
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+``` markdown
+
+# Official Website
+http://2015.stateofthemap.asia/
+
+# When
+October 1st to 2nd, 2016
+
+# Where
+University of the Philippines Diliman, Quezon City
+```
+
+
+
+
 
 ### Support or Contact
 
