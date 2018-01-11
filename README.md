@@ -8,7 +8,7 @@ Mapping the world ♥ together
 State of the Map Asia is an event for all mappers and OpenStreetMap users. Enjoy two days in the Philippines with talks, discussions, and workshops all around the free and open map of the world..
 
 
-[Let's discuss on Slack https://sotmasia.slack.com/](https://sotmasia.slack.com/)
+[Let's discuss on Slack:  https://sotmasia.slack.com](https://sotmasia.slack.com/)
 
 [How to Join our Slack Team?](https://join.slack.com/t/sotmasia/shared_invite/enQtMjg4MTY3NjAwMDUwLTQwZjE3MDIwOTQyNTk4NjRjNTY4YTRlM2JkOWVlNGE1OWE2YTIyMDJiZTdkOTNiMzdmNWIwOTZmODJmYWM3MDM)
 
