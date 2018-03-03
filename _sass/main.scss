@@ -1,0 +1,26 @@
+// CUSTOM VARIABLES
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,600');
+$headings-font-family: 'Dosis', sans-serif;
+$primary: #F16266;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// CUSTOM CSS
+h1 {
+    font-weight: 600 !important;
+}
+.jumbotron {
+    background-color: #fff;
+}
+
+#map {
+    height: 400px !important;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
