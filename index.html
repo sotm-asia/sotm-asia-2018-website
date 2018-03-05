@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>State of the Map Asia 2018</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <!-- <nav class="navbar navbar-expand-md justify-content-md-center navbar-light">
+        <a class="navbar-brand" href="#">
+            <h1>SOTM ASIA <span class="font-weight-light">2018</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Program
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Call for proposals</a>
+                </li>           
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Venue</a>
+                </li>           
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Code of conduct</a>
+                </li>           
+            </ul>
+            <button class="btn btn-outline-dark mx-3 my-sm-0" type="submit">Buy Ticket</button>
+        </div>
+    </nav> -->
+    <div class="jumbotron">
+        
+        <div class="d-md-flex justify-content-md-center">
+            <div class="justify-content-center">
+                <img src="img/sotmAsia18-logo@2x.png" alt="" srcset="" class="img-fluid sotm-logo">
+                <h4 class="display-5 text-center text-primary">Bangalore, India</h4>
+            </div>
+            <!-- <div class="d-md-flex flex-column justify-content-md-around col">
+                <div class="mr-md-3 px-3 px-md-5 box text-white">
+                    <h3 class="display-4">SOTM ASIA 2018</h3>
+                    <h4 class="display-5">Bangalore, India</h4>
+                    <p class="lead">14th - 16th Nov, 2018</p>
+                    <hr class="my-4">
+                    <p>Call for proposals is now open</p>
+                    <p class="lead">
+                        <a class="btn btn-color1 btn-lg" href="#" role="button">Sponsor Us</a>
+                    </p>
+                </div>
+            </div> -->
+        </div>
+        <div class="layer"></div>
+    </div>
+    <!-- SECTION: CALL TO ACTIONS -->
+    <!-- <div class="bg-light">
+        <div class="px-3 pt-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Participate at State of the Map</h1>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-color1 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h2 class="display-4">Call for Proposals</h2>
+                    <p class="lead">Please submit your session proposals for a chance to be included in the program.</p>
+                </div>
+                <button type="button" class="btn btn-lg btn-outline-dark btn-block btn-primary">Get started</button>
+            </div>
+            <div class="bg-primary mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Call for academic abstracts</h2>
+                    <p class="lead">In addition to standard sessions we will include academic talks. Submit your abstracts for peer review.</p>
+                </div>
+                <button type="button" class="btn btn-lg btn-outline-light btn-block btn-primary">Get started</button>
+            </div>
+            <div class="bg-color2 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Apply for scholarships</h2>
+                    <p class="lead">Thanks to the generosity of our sponsors, we can provide scholarships and grants. Apply now!</p>
+                </div>
+                <button type="button" class="btn btn-lg btn-outline-light btn-block btn-primary">Get started</button>
+            </div>
+        </div>
+    </div> -->
+    <!-- SECTION: NEWSLETTER SIGN UP -->
+    <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-color3 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-white overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-4">Sign up for event updates</h2>
+                <p class="lead">By registering in the newsletter you will be able to get future State of the Map information quickly.
+                </p>
+                <form class="form-inline">
+                    <div class="form-group pr-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Email</label>
+                        <input type="password" class="form-control form-control-lg" id="inputPassword2" placeholder="Email">
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary mb-2">Confirm identity</button>
+                </form>
+            </div>
+    
+        </div>
+    </div> -->
+    <!-- SECTION: MAP -->
+    <!-- <div class="bg-light">
+        <div class="d-md-flex flex-md-equal w-100 h-75 my-md-3 pl-md-3">
+            <div class="" id="map"></div>
+        </div>
+    
+    </div> -->
+    <!-- SECTION: SPONSORSHIP -->
+    <div class="">
+        <div class="w-75 px-3 pt-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Interested in sponsoring?</h1>
+            <p class="lead">State of the Map Asia is in Bengaluru this year, bringing together participants from across the region to discuss challenges, spread awareness, learn from each other, and celebrate many years of mapping together.</p>
+            <p class="lead">Download the
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vRlh4Pnmp9SgUXAjgP6kxvqlOLRAoJjYHZYP_8_5arhgGe2v8AjSNX60NzVVZZ3oes8ZAIzjVowl8Qb/pub?start=true&loop=false&delayms=3000&slide=id.p" target="_blank">sponsorship package</a> and email us at
+                <a href="mailto:stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a> for more information.</p>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="container">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="img/sotmAsia18.png" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">&copy; Copyright 2018 - <a href="mailto:stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a></small>
+                </div>
+                <div class="col-6 col-md">
+                    
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <a class="text-muted" href="https://twitter.com/SotmAsia/" target="_blank">Twitter</a>
+                        </li>
+                        <!-- <li>
+                            <a class="text-muted" href="#">Call for proposals</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="#">Venue</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                
+                    <!-- <ul class="list-unstyled text-small">
+                        <li>
+                            <a class="text-muted" href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="#">Wiki page</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="#">Youtube</a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="col-6 col-md">
+                    
+                    <!-- <ul class="list-unstyled text-small">
+                        <li>
+                            <a class="text-muted" href="#">Code of conduct</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    <script src="lib/main.js"></script>
+</body>
+</html>
