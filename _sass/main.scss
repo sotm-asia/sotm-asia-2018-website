@@ -1,0 +1,47 @@
+// CUSTOM VARIABLES
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,600');
+$headings-font-family: 'Dosis', sans-serif;
+$primary: #F16266;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// CUSTOM CSS
+h1 {
+    font-weight: 600 !important;
+}
+.jumbotron {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(250, 246, 167, 0.95), 
+      rgba(250, 246, 167, 0.95)
+    ),
+    url('../img/bg-blr.jpg');
+    background-size: cover;
+}
+
+
+#map {
+    height: 400px !important;
+}
+
+.box {
+    background-color: $primary;
+    // border: 5px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 50px 10px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.sotm-logo {
+    width: 350px;
+
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
