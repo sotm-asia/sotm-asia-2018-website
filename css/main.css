@@ -6049,14 +6049,3 @@ h1 {
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1; } }
-
-.sponsor-type {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.sponsorship {
-    width: 50%;
-    height: 300px;
-    border-radius: 12px 12px 0 0;
-}
