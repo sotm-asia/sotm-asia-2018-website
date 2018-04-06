@@ -6038,9 +6038,9 @@ h1 {
   height: 400px !important; }
 
 .box {
-  background-color: #F16266;
-  border-radius: 5px;
-  padding: 50px 10px;
+  background-color: #F56960;
+  border-radius: 24rem;
+  padding: 16px 32px;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2); }
 
 .sotm-logo {
@@ -6049,3 +6049,7 @@ h1 {
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1; } }
+
+@media (max-width: 575.98px) {
+  .box {
+    border-radius: 10px !important; } }
