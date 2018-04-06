@@ -6044,7 +6044,9 @@ h1 {
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2); }
 
 .sotm-logo {
-  width: 350px; }
+  width: 350px;
+  display: block;
+  margin: 0 auto; }
 
 @media (min-width: 768px) {
   .flex-md-equal > * {
