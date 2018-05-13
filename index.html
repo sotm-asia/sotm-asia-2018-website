@@ -7,230 +7,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-  <div class="jumbotron pt-0">
-      <nav class="navbar navbar-expand-md justify-content-md-center navbar-transparent">
-          <a class="navbar-brand" href="#">
-              <h1>SOTM ASIA <span class="font-weight-light">2018</span></h1>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <!-- <li class="nav-item">
-                      <a class="nav-link" href="#">Program
-                          <span class="sr-only">(current)</span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Call for proposals</a>
-                  </li> -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="https://medium.com/state-of-the-map-asia" target="_blank">Blog</a>
-                  </li>           
-                  <li class="nav-item">
-                      <a class="nav-link" href="coc.html">Code of conduct</a>
-                  </li>
-              </ul>
-              <!-- <button class="btn btn-outline-dark mx-3 my-sm-0" type="submit">Buy Ticket</button> -->
-          </div>
-      </nav>
-        <div class="d-md-flex justify-content-md-center">
-            <div class="justify-content-center">
-                <img src="img/sotmAsia18-logo@2x.png" alt="" srcset="" class="img-fluid sotm-logo">
-                <h4 class="display-5 text-center text-primary">
-                   <p>November 17-18, 2018</p>
-                    Indian Institute of Management, Bangalore</h4>
+    <!-- Section Landing START -->
+    <div class="section-landing">
+        <div class="container">
+            <!-- NavBar START -->
+            <nav class="navbar navbar-expand-md justify-content-md-center navbar-transparent">
+                <a class="navbar-brand" href="#">
+                    <span>SOTM ASIA</span>
+                    <span class="font-weight-light">2018</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Program
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Venue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://medium.com/state-of-the-map-asia" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coc.html">Code of conduct</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-primary btn-rounded" type="button">Get Tickets</button>
+                </div>
+            </nav>
+            <!-- NavBar END -->
+        </div>
+        <div class="container">
+            <div class="row content-landing">
+                <div class="col-md-4">
+                    <img src="img/sotmAsia18-logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <div class="right-landing">
+                        <p>Novemeber 17 - 18, 2018
+                            <br /> Indian Institute of Management, Bangalore</p>
+                        <h1>State of the Map Asia will bring together participants from around the world to discuss challenges, learn, and celebrate many years of mapping together.</h1>
+                        <div class="sotm-organizers">
+                            <h6>Organized by</h6>
+                            <img src="img/sotm-organizers@2x.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- <div class="d-md-flex flex-column justify-content-md-around col">
-                <div class="mr-md-3 px-3 px-md-5 box text-white">
-                    <h3 class="display-4">SOTM ASIA 2018</h3>
-                    <h4 class="display-5">Bangalore, India</h4>
-                    <p class="lead">14th - 16th Nov, 2018</p>
-                    <hr class="my-4">
-                    <p>Call for proposals is now open</p>
-                    <p class="lead">
-                        <a class="btn btn-color1 btn-lg" href="#" role="button">Sponsor Us</a>
+        </div>
+    </div>
+    <!-- Section Landing END -->
+
+    <!-- Section CTAs START -->
+    <div class="section-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cta-card">
+                        <div class="cta-card-content">
+                            <h4>Call for Proposals</h4>
+                            <p>🙌 Call for proposals are open now! We need your help to shape the event this year.</p>
+                        </div>
+                        <div class="cta-card-footer">
+                            <a href="">Submit your proposal
+                                <span class="shift">&nbsp;
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="cta-card">
+                        <div class="cta-card-content">
+                            <h4>Apply for Scholarship</h4>
+                            <p>🎓 Call for scholarships are open now! Apply if you'd like support to attend the event this year.</p>
+                        </div>
+                        <div class="cta-card-footer">
+                            <a href="">Apply now
+                                <span class="shift">&nbsp;
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-card">
+                        <div class="cta-card-content">
+                            <h4>Join us in Bangalore</h4>
+                            <p>🕙 Tickets are on sale now. Get your earily bird tickets, they are going fast, be quick.</p>
+                        </div>
+                        <div class="cta-card-footer">
+                            <a href="">Get tickets &nbsp;
+                                <span class="shift"><i class="fas fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section CTAs END -->
+
+    <!-- Section SOTM 2017 START -->
+    <div class="section-sotm-2017">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="photo-sotm-2017">
+                        <!-- <img src="https://user-images.githubusercontent.com/416977/32729963-e6ead1c8-c8c8-11e7-8446-4b073e50b3b5.jpg" alt=""> -->
+                    </div>
+                </div>
+                <div class="col-md-6 right-sotm-2017">
+                    <h4>State of the Map Asia 2017</h4>
+                    <p>This is also an opportunity to collectively acknowledge the contributions of those mappers in the aftermath of Nepal Earthquake 2015 from all over the world and inform how OSM is being used in disaster management and overall development in Nepal.
+                    </p>
+                    <button class="btn btn-outline-primary btn-rounded" type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section SOTM 2017 END -->
+
+    <!-- Section Partners START -->
+    <div class="sections-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 left-partners">
+                    <h4>Become our partner</h4>
+                    <p>Download the sponsorship package and email us at <a href="mailto:stateofthemapasia@gmail.com" class="alert-link">stateofthemapasia@gmail.com</a> for more information.
                     </p>
                 </div>
-            </div> -->
-        </div>
-        <div class="w-75 px-3 pt-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h2>State of the Map Asia will bring together participants from around the world to discuss challenges, learn, and celebrate many years of mapping together.</h2>
-        </div>
-        <div class="d-md-flex col-12">
-            <div class="col-4 mx-auto pb-3">
-                <div class="bg-color2 mx-auto text-center overflow-hidden">
-                    <div class="my-3 p-3">
-                        <!-- <h2 class="display-4">Call for Proposals</h2> -->
-                        <p class="lead">🙌 Call for proposals are open now! We need your help to shape the event this year.</p>
-                    </div>
-                    <a href="http://bit.ly/cfp-sotm-asia" target="_blank" class="btn btn-lg btn-block btn-primary badge-pill">Submit your proposal</a>
-                </div>
-            </div>
-            <div class="col-4 mx-auto pb-3">
-                <div class="bg-color2 mx-auto text-center overflow-hidden">
-                    <div class="my-3 p-3">
-                        <!-- <h2 class="display-4">Call for Proposals</h2> -->
-                        <p class="lead">🎓 Call for scholarships are open now! Apply if you'd like support to attend the event this year.</p>
-                    </div>
-                    <a href="http://bit.ly/sotm-asia-cfs" target="_blank" class="btn btn-lg btn-block btn-primary badge-pill">Apply for scholarship</a>
-                </div>
+                <div class="col-md-3 right-partners">
+<button class="btn btn-outline-primary btn-rounded" type="button">Learn More</button>
+                </div>  
             </div>
         </div>
     </div>
-    <!-- SECTION: ORGANISERS -->
-    <div class="">
-        <div class="w-75 px-3 pt-3 mx-auto text-center px-3 pt-3 pb-md-4 mx-auto">
-            <h1 class="display-5">Organisers</h1>
-        </div>
-        <div class="container mx-auto">
+    <!-- Section Partners END -->
+
+    <!-- Section Venue START -->
+    <div class="section-venue">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="box-shadow text-muted mx-auto">
-                        <a href="https://openstreetmap.org"><img src="img/osm_logo_gray.png" alt="" class="img-fluid"></a>
-                    </div>
+                <div class="col-md-6 left-venue">
+                    <p class="text-primary">Novemeber 17 - 18, 2018
+                        <br /> Indian Institute of Management, Bangalore</p>
+                    <h4>Venue</h4>
+                    <p>IIMB is a leading graduate school of management in Asia. IIMB has around 100 full time faculty members, more than 1200 students across various long duration programmes and nearly 5000 annual Executive Education participants.
+                    </p>
+                    <button class="btn btn-outline-primary btn-rounded" type="button">Learn More</button>
                 </div>
-                <div class="col-lg-4">
-                    <div class="box-shadow text-muted mx-auto">
-                        <a href="http://www.iimb.ac.in/"><img src="img/iim_blr_logo_gray.png" alt="" class="img-fluid"></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="box-shadow text-muted mx-auto">
-                        <a href="https://cis-india.org/"><img src="img/cis_logo_gray.png" alt="" class="img-fluid"></a>
-                    </div>
+                <div class="col-md-6 right-venue">
+                    <div id="map"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- SECTION: CALL TO ACTIONS -->
-    <!-- <div class="bg-light">
-        <div class="px-3 pt-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-4">Participate at State of the Map</h1>
-        </div>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-            <div class="bg-color1 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center overflow-hidden">
-                <div class="my-3 p-3">
-                    <h2 class="display-4">Call for Proposals</h2>
-                    <p class="lead">Please submit your session proposals for a chance to be included in the program.</p>
+    <!-- Section Venue END -->
+
+    <!-- Footer START -->
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-6">
+                    <p>© Copyright 2018 | stateofthemapasia@gmail.com</p>
                 </div>
-                <button type="button" class="btn btn-lg btn-outline-dark btn-block btn-primary">Get started</button>
-            </div>
-            <div class="bg-primary mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-4">Call for academic abstracts</h2>
-                    <p class="lead">In addition to standard sessions we will include academic talks. Submit your abstracts for peer review.</p>
-                </div>
-                <button type="button" class="btn btn-lg btn-outline-light btn-block btn-primary">Get started</button>
-            </div>
-            <div class="bg-color2 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h2 class="display-4">Apply for scholarships</h2>
-                    <p class="lead">Thanks to the generosity of our sponsors, we can provide scholarships and grants. Apply now!</p>
-                </div>
-                <button type="button" class="btn btn-lg btn-outline-light btn-block btn-primary">Get started</button>
-            </div>
-        </div>
-    </div> -->
-    <!-- SECTION: NEWSLETTER SIGN UP -->
-    <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-color3 mr-md-3 py-3 px-3 py-md-5 px-md-5 text-white overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-4">Sign up for event updates</h2>
-                <p class="lead">By registering in the newsletter you will be able to get future State of the Map information quickly.
-                </p>
-                <form class="form-inline">
-                    <div class="form-group pr-sm-3 mb-2">
-                        <label for="inputPassword2" class="sr-only">Email</label>
-                        <input type="password" class="form-control form-control-lg" id="inputPassword2" placeholder="Email">
+                <div class="col-sm-6 p-0">
+                    <div class="d-flex justify-content-end">
+                        <div class="foot-link"><a href="">Twitter</a></div>
+                        <div class="foot-link"><a href="">Blog</a></div>
+                        <div class="foot-link"><a href="">Code of Conduct</a></div>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-primary mb-2">Confirm identity</button>
-                </form>
-            </div>
-
-        </div>
-    </div> -->
-    <!-- SECTION: MAP -->
-    <!-- <div class="bg-light">
-        <div class="d-md-flex flex-md-equal w-100 h-75 my-md-3 pl-md-3">
-            <div class="" id="map"></div>
-        </div>
-
-    </div> -->
-    <!-- SECTION: SPONSORSHIP -->
-    <div class="">
-        <div class="w-75 px-3 pt-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-5">Interested in sponsoring?</h1>
-            <p class="lead">Download the
-                <a href="https://docs.google.com/presentation/d/e/2PACX-1vRlh4Pnmp9SgUXAjgP6kxvqlOLRAoJjYHZYP_8_5arhgGe2v8AjSNX60NzVVZZ3oes8ZAIzjVowl8Qb/pub?start=true&loop=false&delayms=3000&slide=id.p" target="_blank">sponsorship package</a> and email us at
-                <a href="mailto:stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a> for more information.</p>
-        </div>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
-            </div>
-            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
-            </div>
-            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="bg-light box-shadow text-muted mx-auto px-5 py-5" style="width: 80%; height: 300px; border-radius: 12px 12px 0 0;">Your logo here</div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container">
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <img class="mb-2" src="img/sotmAsia18.png" alt="" width="24" height="24">
-                    <small class="d-block mb-3 text-muted">&copy; Copyright 2018 <a href="mailto:stateofthemapasia@gmail.com">stateofthemapasia@gmail.com</a></small>
-                </div>
-                <div class="col-6 col-md">
-
-                    <ul class="list-unstyled text-small">
-                        <li>
-                            <a class="text-muted" href="https://twitter.com/SotmAsia/" target="_blank">Follow us on Twitter @SotMAsia</a>
-                        </li>
-                        <!-- <li>
-                            <a class="text-muted" href="#">Call for proposals</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="#">Venue</a>
-                        </li> -->
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-
-                    <!-- <ul class="list-unstyled text-small">
-                        <li>
-                            <a class="text-muted" href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="#">Wiki page</a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="#">Youtube</a>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="col-6 col-md">
-
-                    <!-- <ul class="list-unstyled text-small">
-                        <li>
-                            <a class="text-muted" href="#">Code of conduct</a>
-                        </li>
-                    </ul> -->
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    <!-- Footer END -->
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
