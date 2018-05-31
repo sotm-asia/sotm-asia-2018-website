@@ -1,0 +1,12 @@
+// CUSTOM VARIABLES
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+$headings-font-family: 'Quicksand', sans-serif;
+$primary: #F16266;
+$secondary: #FAF9A8;
+$text-sotm: #152935;
+$text-sotm-1: #5A6872;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../_sass/_custom.scss";

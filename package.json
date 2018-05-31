@@ -1,0 +1,45 @@
+{
+  "name": "sotm-asia-2018-website",
+  "version": "1.0.0",
+  "description": "![sotmasia_groupphoto](https://user-images.githubusercontent.com/416977/32729963-e6ead1c8-c8c8-11e7-8446-4b073e50b3b5.jpg)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotm-asia/sotm-asia-2018-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotm-asia/sotm-asia-2018-website/issues"
+  },
+  "homepage": "https://github.com/sotm-asia/sotm-asia-2018-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bootstrap": "^4.1.1",
+    "browser-sync": "^2.24.4",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "popper.js": "^1.14.3",
+    "postcss-cli": "^5.0.0",
+    "run-script-os": "^1.0.3"
+  },
+  "scripts": {
+    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "js-build": "babel _javascript --out-dir lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start-watch": "npm run css-watch | npm run js-watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run css-watch | npm run js-watch | run-script-os ",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser"
+  },
+  "dependencies": {}
+}
