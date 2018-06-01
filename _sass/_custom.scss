@@ -27,7 +27,8 @@ a {
     background-image: url('../img/topography1.svg');
     background-size: 480px, auto; 
     background-color: #fff;
-    min-height: 100vh;
+    padding-bottom: 5rem;
+    min-height: 100%;
 }
 
 .navbar {
@@ -233,12 +234,8 @@ a.navbar-brand{
         }
     }
     
-    .section-cta {
-        margin: -7rem 0 0 0;
-    }
-    
     .cta-card {
-        margin: 0 0 1rem 0;
+        margin: 0 0 1rem 0 !important;
     }
     
     .photo-sotm-2017 {
@@ -257,7 +254,7 @@ a.navbar-brand{
 
     .right-venue {
         height: 150px;
-       }
+    }
     
     .section-venue .row {
         flex-direction: column !important;
