@@ -27,7 +27,7 @@ After successfully running, view the project in the URL displayed. You can also 
 
 Open `_custom.scss` under `_sass` folder and start adding your css codes.
 
-Opne `main.js` under `_javascript` folder and start adding your js codes.
+Open `main.js` under `_javascript` folder and start adding your js codes.
 
 ## Deploy
 ```
