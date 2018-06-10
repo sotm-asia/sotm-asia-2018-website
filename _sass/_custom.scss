@@ -157,6 +157,7 @@ a.navbar-brand{
     align-items: center !important;
 }
 
+.right-partners,
 .left-partners {
     padding: 1.5rem 3rem;
     p {
@@ -164,10 +165,15 @@ a.navbar-brand{
     }
 }
 
-.right-partners {
-    display: flex;
-    align-items: center;
+.left-partners img {
+    margin: 2rem 0;
+    width: 60%;
 }
+
+// .right-partners {
+//     display: flex;
+//     align-items: center;
+// }
 
 .footer{
     color: $text-sotm;
@@ -247,6 +253,9 @@ a.navbar-brand{
     }
     .right-partners {
         padding: 1rem 3rem;
+    }
+    .left-partners img {
+        width: 100%;
     }
     .sections-partners .row {
         padding: 1rem 1rem !important;
