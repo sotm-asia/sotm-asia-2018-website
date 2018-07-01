@@ -167,9 +167,11 @@ a.navbar-brand{
 
 .left-partners img {
     margin: 2rem 0;
+    width: 100%;
+}
+.left-partners img:nth-child(4) {
     width: 60%;
 }
-
 // .right-partners {
 //     display: flex;
 //     align-items: center;
@@ -257,6 +259,11 @@ a.navbar-brand{
     .left-partners img {
         width: 100%;
     }
+
+    .left-partners img:nth-child(4) {
+        width: 100%;
+    }   
+
     .sections-partners .row {
         padding: 1rem 1rem !important;
     }
