@@ -54,6 +54,9 @@ a.navbar-brand {
 
 .navbar-nav .nav-item {
   margin-right: 24px;
+  .active {
+    color: $primary !important;
+  }
 }
 
 .content-landing {
@@ -218,6 +221,24 @@ a.navbar-brand {
   padding: 2rem;
 }
 
+// Program page styles
+
+.schedule-grid--row {
+  border-top: 1px solid #dfe3e6;
+  border-bottom: 1px solid #dfe3e6;
+  margin-top: -1px;
+}
+.schedule-highlight {
+  border-top: 1px solid #ffcf24;
+  border-bottom: 1px solid #ffcf24;
+  // background-color: #dfe3e6;
+}
+.schedule-grid--content > p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
 @media (max-width: 575.98px) {
   .container {
     width: calc(100vw - 30px) !important;
@@ -320,6 +341,13 @@ a.navbar-brand {
     margin-bottom: 0.5rem;
     & :nth-child(2) > div {
       justify-content: flex-start !important;
+    }
+  }
+
+  .schedule-grid--content {
+    margin-right: 1.5rem;
+    p {
+      text-align: right;
     }
   }
 }
