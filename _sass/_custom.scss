@@ -228,6 +228,14 @@ a.navbar-brand {
   border-bottom: 1px solid #dfe3e6;
   margin-top: -1px;
 }
+
+.schedule {
+  &:last-child {
+    .schedule-grid--row {
+      border-bottom: 0 !important;
+    }
+  }
+}
 .schedule-highlight {
   border-top: 1px solid #ffcf24;
   border-bottom: 1px solid #ffcf24;
@@ -237,6 +245,13 @@ a.navbar-brand {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+.flex-narrow {
+  flex: 1 2 25%;
+}
+.flex-wide {
+  flex: 1 2 75%;
 }
 
 @media (max-width: 575.98px) {
@@ -348,6 +363,16 @@ a.navbar-brand {
     margin-right: 1.5rem;
     p {
       text-align: right;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+
+  .schedule-header {
+    margin-top: 3rem;
+    p {
+      width: 100% !important;
     }
   }
 }
