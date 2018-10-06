@@ -75,7 +75,7 @@ a.navbar-brand {
 }
 
 .sotm-organizers {
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: $text-sotm-1 !important;
   img {
     width: 50%;
@@ -252,6 +252,10 @@ a.navbar-brand {
 }
 .flex-wide {
   flex: 1 2 75%;
+}
+
+.registration {
+  margin-top: 1rem;
 }
 
 @media (max-width: 575.98px) {
