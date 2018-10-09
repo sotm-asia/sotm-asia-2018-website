@@ -6347,15 +6347,14 @@ a.navbar-brand {
     line-height: 1.5 !important; }
 
 .sotm-organizers {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
   color: #5A6872 !important; }
   .sotm-organizers img {
     width: 50%; }
 
 .cta-card {
   background-color: #ffeeaf;
-  margin-top: -5rem;
+  margin-top: -3rem;
   margin-bottom: 5rem;
   border-radius: 3px; }
   .cta-card h4 {
