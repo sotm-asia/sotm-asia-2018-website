@@ -54,6 +54,9 @@ a.navbar-brand {
 
 .navbar-nav .nav-item {
   margin-right: 24px;
+  .active {
+    color: $primary !important;
+  }
 }
 
 .content-landing {
@@ -72,7 +75,7 @@ a.navbar-brand {
 }
 
 .sotm-organizers {
-  margin-top: 4rem;
+  margin-top: 3rem;
   color: $text-sotm-1 !important;
   img {
     width: 50%;
@@ -82,7 +85,7 @@ a.navbar-brand {
 .cta-card {
   background-color: #ffeeaf;
   // padding: 0 !important;
-  margin-top: -5rem;
+  margin-top: -3rem;
   // margin-left: 1rem;
   margin-bottom: 5rem;
   border-radius: 3px;
@@ -218,6 +221,43 @@ a.navbar-brand {
   padding: 2rem;
 }
 
+// Program page styles
+
+.schedule-grid--row {
+  border-top: 1px solid #dfe3e6;
+  border-bottom: 1px solid #dfe3e6;
+  margin-top: -1px;
+}
+
+.schedule {
+  &:last-child {
+    .schedule-grid--row {
+      border-bottom: 0 !important;
+    }
+  }
+}
+.schedule-highlight {
+  border-top: 1px solid #ffcf24;
+  border-bottom: 1px solid #ffcf24;
+  // background-color: #dfe3e6;
+}
+.schedule-grid--content > p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.flex-narrow {
+  flex: 1 2 25%;
+}
+.flex-wide {
+  flex: 1 2 75%;
+}
+
+.registration {
+  margin-top: 1rem;
+}
+
 @media (max-width: 575.98px) {
   .container {
     width: calc(100vw - 30px) !important;
@@ -320,6 +360,23 @@ a.navbar-brand {
     margin-bottom: 0.5rem;
     & :nth-child(2) > div {
       justify-content: flex-start !important;
+    }
+  }
+
+  .schedule-grid--content {
+    margin-right: 1.5rem;
+    p {
+      text-align: right;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+
+  .schedule-header {
+    margin-top: 3rem;
+    p {
+      width: 100% !important;
     }
   }
 }
